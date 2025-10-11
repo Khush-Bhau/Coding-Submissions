@@ -4,7 +4,8 @@ class Solution:
         sum = 0
         for i in range(0,n):
             
-            r = n % 10
+            sum = sum+ n%10
             n = n // 10
-            sum = sum+r
         return sum
+        # return n%10 + self.sumOfDigits(n//10)
+        
