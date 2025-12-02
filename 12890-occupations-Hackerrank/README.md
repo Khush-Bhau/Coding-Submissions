@@ -1,0 +1,16 @@
+# [Occupations](https://www.hackerrank.com/challenges/occupations/problem?isFullScreen=true)
+## Medium
+<div class="challenge-body-html"><div class="challenge_problem_statement"><div class="msB challenge_problem_statement_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p><a href="https://en.wikipedia.org/wiki/Pivot_table">Pivot</a> the <em>Occupation</em> column in <strong>OCCUPATIONS</strong> so that each <em>Name</em> is sorted alphabetically and displayed underneath its corresponding <em>Occupation</em>. The output should consist of four columns (<em>Doctor</em>, <em>Professor</em>, <em>Singer</em>, and <em>Actor</em>) in that specific order, with their respective names listed alphabetically under each column.</p>
+
+<p><strong>Note:</strong> Print <strong>NULL</strong> when there are no more names corresponding to an occupation.</p></div></div></div><div class="challenge_input_format"><div class="msB challenge_input_format_title"><p><strong>Input Format</strong></p></div><div class="msB challenge_input_format_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p>The <strong>OCCUPATIONS</strong> table is described as follows:</p>
+
+<p><img src="https://s3.amazonaws.com/hr-challenge-images/12889/1443816414-2a465532e7-1.png"></p>
+
+<p><em>Occupation</em> will only contain one of the following values: <strong>Doctor</strong>, <strong>Professor</strong>, <strong>Singer</strong> or <strong>Actor</strong>.</p></div></div></div><div class="challenge_sample_input"><div class="msB challenge_sample_input_title"><p><strong>Sample Input</strong></p></div><div class="msB challenge_sample_input_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p><img src="https://s3.amazonaws.com/hr-challenge-images/12890/1443817648-1b2b8add45-2.png"></p></div></div></div><div class="challenge_sample_output"><div class="msB challenge_sample_output_title"><p><strong>Sample Output</strong></p></div><div class="msB challenge_sample_output_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><pre><code>Jenny    Ashley     Meera  Jane
+Samantha Christeen  Priya  Julia
+NULL     Ketty      NULL   Maria
+</code></pre></div></div></div><div class="challenge_explanation"><div class="msB challenge_explanation_title"><p><strong>Explanation</strong></p></div><div class="msB challenge_explanation_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p>The first column is an alphabetically ordered list of Doctor names. <br>
+The second column is an alphabetically ordered list of Professor names. <br>
+The third column is an alphabetically ordered list of Singer names. <br>
+The fourth column is an alphabetically ordered list of Actor names. <br>
+The empty cell data for columns with less than the maximum number of names per occupation (in this case, the Professor and Actor columns) are filled with <strong>NULL</strong> values.</p></div></div></div></div>
